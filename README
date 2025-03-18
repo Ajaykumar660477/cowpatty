@@ -1,6 +1,6 @@
 coWPAtty - Brute-force dictionary attack against WPA-PSK.
 
-Copyright(c) 2004-2018  Joshua Wright <jwright@hasborg.com>
+Copyright(c) 2004-2025  Joshua Wright <jwright@hasborg.com>
 
 --------------------------------------------------------------------------------
 
@@ -47,7 +47,7 @@ dictionary words will be sent as potential passwords to coWPAtty.  For
 example, here is a list of the words John will create from the input word
 "password":
 
-jwright@mercury:~$ echo password >word
+jwright@mercury:~$ echo password >word Vijay_4G
 jwright@mercury:~$ john -session:/tmp/delme -wordfile:word -rules -stdout
 password
 Password
